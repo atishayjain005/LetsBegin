@@ -1,0 +1,220 @@
+#head {
+    color: #39C0ED;
+    transition-duration: 0.2s;
+}
+
+#name {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#head:hover {
+    color: rgb(209, 255, 255);
+}
+
+#parallax {
+    background-image: url(prog.jpg);
+    min-height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax2 {
+    background-image: url(yoyo.jpg);
+    min-height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+}
+
+#caption {
+    width: 100%;
+    background-color: whitesmoke;
+    height: 200px;
+    padding: 85px;
+    letter-spacing: 5px;
+}
+
+#caption2 {
+    background-color: transparent;
+    height: fit-content;
+    padding: 85px;
+    margin: 15% 0% 15% 0%;
+    letter-spacing: 5px;
+    word-wrap: break-word;
+}
+
+#caption3 {
+    width: 100%;
+    background-color: whitesmoke;
+    height: fit-content;
+    padding: 85px;
+    letter-spacing: 5px;
+}
+
+#p4 {
+    width: 50%;
+    background-color: whitesmoke;
+    word-wrap: break-word;
+}
+
+#col1 {
+    background-color: transparent;
+    padding: 100px;
+}
+
+#col2 {
+    background-color: transparent;
+    padding: 200px;
+}
+
+#col3 {
+    background-color: transparent;
+    padding: 200px;
+}
+
+#col4 {
+    background-color: transparent;
+    padding: 200px;
+}
+
+#c2 {
+    background-image: url(code1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+}
+
+#c21 {
+    color: white;
+    background-color: transparent;
+    padding-top: 100px;
+    height: 550px;
+}
+
+#h12 {
+    font-weight: bold;
+    font-size: 70px;
+}
+
+#p2 {
+    font-size: 20px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 100px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+#a1 {
+    text-align: center;
+    color: azure;
+    font-size: 30px;
+    padding: 30px;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: #fff;
+}
+
+#wastenergy {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    margin: 20px 0px 50px 0px;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem -30px;
+}
+
+.socials li {
+    margin: 0 20px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    transition: color .2s ease;
+}
+
+.socials a:hover i {
+    color: rgb(0, 195, 255);
+}
+
+.footerb {
+    background: rgb(0, 0, 0);
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footerb #pp {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
